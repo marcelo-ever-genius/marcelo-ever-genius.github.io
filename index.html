@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Page Title-->
+    <title>Evergenius Tools</title>
+
+    <!--Load bootstrap.css files minified, it's needed in order to run the app properly-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--Font-awesome has vectorized icons and good font-sources for retina displays.-->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!--load the page animations, like fade in, roll down, etc-->
+    <link href="css/animate.css" rel="stylesheet">
+    
+    <!--Personalized css styles created by author insipinia-->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--This wrapper corresponds to the entirely page, the format itself-->
+<div id="wrapper">
+
+    <!--The navegation bar, all itens on the left corner are situated here-->
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">EverGenius Tools</strong>
+                             </span> <span class="text-muted text-xs block">Standard Version 1.0<b class="caret"></b></span> </span> </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                    </div>
+                    <div class="logo-element">
+                        EG v.1.0
+                    </div>
+                </li>
+                <li class="active">
+                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="minor.html"><i class="fa fa-th-large"></i> <span class="nav-label">Reports</span> </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+<!--All elements inside the page should come in here-->
+    <div id="page-wrapper" class="gray-bg">
+        
+        <!--Minimize Navegation bar / Search Box / Log out button-->
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                    <form role="search" class="navbar-form-custom" method="post" action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-sign-out"></i> Log out
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+        
+        <!--Here goes the scope title and first infos about the dashboard-->
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center m-t-lg">
+                        <h1>
+                            Dashboard - Evergenius Tools version 1.0
+                        </h1>
+                        <small>
+                            Your plan is the <i>Standard</i>, click <a href="#">here</a> to know more about our plans.
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--This is the google analytics div.-->
+        <div class="col-lg-12">
+                <div class="ibox">
+                    <div class="ibox-title">
+                        <h5>Google Analytics</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="fullscreen-link">
+                                <i class="fa fa-expand"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content" style="display: block;">
+
+                        <p>
+                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+                        <p>
+                            last info
+                        </p>
+                        <section id="auth-button"></section>
+                        <section id="view-selector"></section>
+                        <section id="timeline"></section>
+                        
+                        <script src="js/plugins/GoogleAnalytics/analyticsapi.js"></script>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        <!--This is the footer, basic info about the company here and copyright.-->
+        <div class="footer">
+            <div class="pull-right">
+                Standard Plan <strong>version 1.0</strong> EG..
+            </div>
+            <div>
+                <strong>Copyright</strong> EverGenius &copy; 2017.
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--Navbar / tables scripts-->
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="js/plugins/slimscroll/addslimscroll.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+    
+
+</body>
+
+</html>
