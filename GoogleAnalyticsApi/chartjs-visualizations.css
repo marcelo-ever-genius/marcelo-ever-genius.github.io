@@ -15,10 +15,10 @@ limitations under the License.
 */
 
 /* Base styles, media queries, variables, etc. */
-@import './base/custom-media';
-@import './base/variables';
+@import url('/base/custom-media');
+@import url('/base/variables');
 
 
 /* Components. */
-@import './components/active-users';
-@import './components/chartjs';
+@import url('/components/active-users');
+@import url('/components/chartjs');
