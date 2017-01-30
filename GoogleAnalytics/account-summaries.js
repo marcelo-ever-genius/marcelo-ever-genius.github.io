@@ -33,7 +33,6 @@
  *
  * It also aliases the properties `webProperties` to `properties` and
  * `profiles` to `views` within the `accounts` array tree.
-
  * @param {Array} accounts A list of accounts in the format returned by the
  *     management API's accountSummaries#list method.
  * @returns {AccountSummaries}
