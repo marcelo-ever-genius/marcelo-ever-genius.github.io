@@ -39,7 +39,7 @@ gapi.analytics.ready(function() {
       container: 'chart-container',
       type: 'LINE',
       options: {
-        width: '100%'
+        width: '20%'
       }
     }
   });
