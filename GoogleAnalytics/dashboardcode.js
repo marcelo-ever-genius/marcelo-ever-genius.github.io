@@ -38,10 +38,9 @@ gapi.analytics.ready(function() {
     chart: {
       container: 'chart-container',
       type: 'LINE',
-      options: {
-        width: '100%',
-          responsive: true
-      }
+//      options: {
+//        width: '100%'
+//      }
     }
   });
 
