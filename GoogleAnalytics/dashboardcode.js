@@ -1,5 +1,3 @@
-<script>
-
 gapi.analytics.ready(function() {
 
   /**
@@ -144,4 +142,3 @@ gapi.analytics.ready(function() {
   });
 
 });
-</script>
