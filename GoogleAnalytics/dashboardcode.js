@@ -53,4 +53,3 @@ gapi.analytics.ready(function() {
   });
 
 });
-</script>
